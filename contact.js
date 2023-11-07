@@ -22,7 +22,10 @@ function validateName(input) {
     const namePattern = /^[A-Za-z ]+$/; // Regular expression to allow only alphabets and spaces
 
     if (!namePattern.test(name)) {
-        document.getElementById("name-error").textContent =
-            "Please enter a valid name.";
+        document.getElementById('name-error').textContent = 'Please enter a valid name.';
+        input.setCustomValidity('');
+    } else {
+        document.getElementById('name-error').textContent = '';
+        input.setCustomValidity('');
     }
 }

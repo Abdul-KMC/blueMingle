@@ -1,15 +1,4 @@
 .wrapper {
-    /* background: linear-gradient(to bottom,#18242a, rgb(22, 22, 22));
-    color: white;
-    border: 2px solid #ffffff;
-    box-shadow: 3px 3px 12px rgb(255, 255, 255);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 90%;
-    height: 90%;
-    flex-direction: column;
-    margin-top: 70px; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,10 +7,10 @@
     flex-direction: column;
     margin-top: 50px;
     background: url(./images/background.jpg);
-    background-size:cover;
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed; 
+    background-attachment: fixed;
 }
 
 .buttons {
@@ -46,10 +35,10 @@ button {
 main {
     display: flex;
     background: url(./images/background.jpg);
-    background-size:cover;
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed; 
+    background-attachment: fixed;
 }
 
 #sidebar {
@@ -62,39 +51,37 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
 #top {
     display: flex;
     flex-direction: row;
     text-align: center;
-    margin: 10px 10;
 }
 
 #back {
+    width: 100px;
     text-align: left;
-    margin: 20px 50px 0px 50px;
+    margin: 20px 50px 0 0;
     height: 30px;
     font-size: 20px;
 }
+
 button:hover {
     /* background-color: #dadada; */
-    background: linear-gradient(to bottom,#ffffff, #37314a);
+    background: linear-gradient(to bottom, #ffffff, #37314a);
 }
-
 
 #top h2 {
     text-align: center;
     font-size: 48px;
-    margin: 0px 500px 0px 86px;
+    margin: 10px 0 0 50px;
     -webkit-text-stroke: 1px #fff;
     color: transparent;
     background: url(./images/back.png);
     -webkit-background-clip: text;
     background-position: 0 0;
     animation: back 1s linear infinite;
-    width: 100%;
 }
 
 @keyframes back {
@@ -103,28 +90,25 @@ button:hover {
     }
 }
 
-
 #objective {
-    font-size:small;
-    background: linear-gradient(to bottom,#18242a, rgb(22, 22, 22));
+    flex: 1;
+    font-size: small;
+    background: linear-gradient(to bottom, #18242a, rgb(22, 22, 22));
     color: #c5c5c5;
     padding: 0px 10px 0px;
     border-radius: 15px;
     font-family: monospace;
-    flex:8;
 }
 
-#objective ul{
-    font-size:small;
+#objective ul {
+    font-size: small;
     font-family: monospace;
     color: #d1d1d1;
 }
 
-#objective h3{
-    font-family:serif;
+#objective h3 {
+    font-family: serif;
     color: #ffffff;
     margin-bottom: 5px;
     font-size: medium;
-    
 }
-
