@@ -1,0 +1,73 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#side_bar {
+    flex: 2;
+}
+
+.tttgrid {
+    flex: 4;
+    display: grid;
+    grid-template-rows: repeat(3, 10vw);
+    grid-template-columns: repeat(3, 10vw);
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 40px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: right;
+    border: 2px solid #ffffff;
+    box-shadow: 3px 3px 12px rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(4, 0, 79), 0 0 30px rgb(0, 0, 95);
+    background: linear-gradient(to bottom,#18242a, rgb(22, 22, 22));
+}
+
+.gameInfo {
+    flex: 2;
+}
+
+#objective {
+    flex: 2;
+}
+
+.box {
+    border: 2px solid rgb(255, 255, 255);
+    font-size: 5vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover {
+    background-color: black;
+}
+
+.imgbox img {
+    display: none;
+}
+
+#objective {
+    font-size:small;
+    background: linear-gradient(to bottom,#18242a, rgb(22, 22, 22));
+    color: #c5c5c5;
+    padding: 0px 10px 10px;
+    border-radius: 15px;
+    font-family: monospace;
+}
+
+#objective ul{
+    font-size:small;
+    font-family: monospace;
+    color: #d1d1d1;
+}
+
+#objective h3{
+    font-family:serif;
+    color: #ffffff;
+    margin-bottom: 5px;
+    font-size: medium;
+    
+}
