@@ -80,10 +80,16 @@ document.getElementById("reset").addEventListener('click', () => {
     document.querySelector('.imgbox').getElementsByTagName('img')[0].style.width = "0px";
 });
 
+// switch between games using dropdown
 var select = document.getElementById("games-dropdown");
 select.addEventListener("change", function() {
     var selectedOption = select.options[select.selectedIndex].value;
     if (selectedOption) {
         window.location.href = selectedOption + ".html";
     }
+});
+
+// function for back button
+backButton.addEventListener('click', () => {
+    window.location.href = 'index.html';
 });
