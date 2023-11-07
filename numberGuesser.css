@@ -5,6 +5,11 @@ main {
     justify-content: space-between;
     align-items: flex-start;
     padding: 20px;
+    background: url(./images/background.jpg);
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
 }
 
 
@@ -105,12 +110,62 @@ img {
 }
 
 button {
-    border-radius: 20px;
-    background-color: #ffffff;
+    border-radius: 23px;
+    background: linear-gradient(to bottom,#37314a, rgb(255, 255, 255));
     cursor: pointer;
     padding: 5px 20px;
 }
 
 button:hover {
-    background-color: #dadada;
+    /* background-color: #dadada; */
+    background: linear-gradient(to bottom,#ffffff, #37314a);
+}
+
+
+#game p {
+    display: none; 
+}
+
+#bottom p {
+    color: rgb(255, 255, 255);
+    border-radius:2px;
+    background: linear-gradient(to bottom,#19262f, rgb(91, 91, 91));
+    padding: 0px 1px 2px; 
+    font-family: monospace;
+    font-weight: 800px;
+    border-style: groove;
+    border-color: rgb(0, 0, 0);
+}
+
+#game {
+    color: rgb(255, 255, 255);
+    border-radius:2px;
+    background: linear-gradient(to bottom,#19262f, rgb(91, 91, 91));
+    padding: 0px 1px 2px; 
+    font-family: monospace;
+    font-weight: 800px;
+    border-style: groove;
+    border-color: rgb(0, 0, 0);
+}
+
+#ng_score {
+    color: rgb(255, 255, 255);
+    border-radius:1px;
+    background: linear-gradient(to bottom,#19262f, rgb(91, 91, 91));
+    padding: 4px 1px 2px; 
+    font-family: monospace;
+    font-weight: 800px;
+    border-style: groove;
+    border-color: rgb(255, 255, 255);
+}
+
+#numericInput {
+    color: rgb(0, 0, 0);
+    border-radius:1px;
+    background: linear-gradient(to bottom,#ffffff, rgb(129, 129, 129));
+    padding: 4px 1px 2px; 
+    border-style: groove;
+    border-color: rgb(255, 255, 255);
+    font-size:medium;
+    font-family: cursive; 
 }
