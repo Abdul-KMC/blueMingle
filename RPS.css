@@ -73,6 +73,7 @@ button:hover {
     /* background-color: #dadada; */
     background: linear-gradient(to bottom, #a0a0a0, #071931);
     color: #fff;
+    text-shadow: 0 4px  10px #ffffff;
 }
 
 

@@ -111,7 +111,7 @@ img {
 
 button {
     border-radius: 23px;
-    background: linear-gradient(to bottom,#37314a, rgb(255, 255, 255));
+    font-size: 16px;
     cursor: pointer;
     padding: 5px 20px;
 }

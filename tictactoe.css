@@ -22,30 +22,26 @@ main {
 
 #top button {
     text-align: left;
-    margin: 20px 40px 0px 50px;
+    margin: 0px 40px 0px 50px;
     height: 30px;
     border-radius: 20px;
-    color: rgb(255, 255, 255);
-    border-radius:15px;
-    background: linear-gradient(to bottom,#19262f, rgb(122, 122, 122));
     padding: 2px -1px 0px; 
-    font-family: monospace;
     font-weight: 800px;
-    border-style: groove;
-    border-color: rgb(255, 255, 255);
+    font-size: 16px;
+   
 }
  #top button:hover {
-    background: linear-gradient(to bottom,#9b9b9b, #19262f);
-    
-   
-
+    background: linear-gradient(to bottom, #a0a0a0, #071931);
+    text-shadow: 0 4px  10px #ffffff;
+    color: #ffffff;
+    transition: color 0.3s;
  }
 
  
 #top h2 {
     text-align: center;
     font-size: 48px;
-    margin: 0px 50px 0px 50px;
+    margin: 10px 50px 0px 50px;
     -webkit-text-stroke: 1px #ffffff;
     color: transparent;
     background: url(./images/back.png);
